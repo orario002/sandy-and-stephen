@@ -1,0 +1,139 @@
+/* gold #9d9d80 */
+
+
+/* light blue #aed5dc */
+
+
+/* dusty blue #7389a7 */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    color: #7389a7;
+}
+
+a {
+    color: #7389a7;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #9D9D80;
+}
+
+.navbar {
+    background: linear-gradient(to right, #aed5dc, #7389a7);
+    border: none;
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 20px;
+    color: #9d9d80;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-nav>a:hover {
+    color: #fff;
+    background-color: #9D9D80;
+}
+
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #9D9D80;
+}
+
+a.nav-link.active,
+a.nav-link:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #9D9D80;
+}
+
+span.icon-list {
+    width: 100%;
+    color: #fff;
+    font-size: 5rem;
+    display: block;
+    text-align: center;
+}
+
+.fa {
+    color: #7389a7;
+}
+
+span {
+    padding-right: 1.5rem;
+}
+
+.icon-list span fa {
+    width: 100%;
+    font-size: 5rem;
+    color: #fff;
+}
+
+#main {
+    margin-top: 50px;
+}
+
+.wrapper {
+    background: #aed5dc;
+    color: #fff;
+    border: 15px solid #fff;
+    height: 300px;
+    padding: 15px;
+}
+
+.wrapper>h2 {
+    color: #9d9d80;
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0 1.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+#hero-banner {
+    padding: 20vh 0 5vh 0;
+    background: url(images/marble-2371776_1280.jpg);
+    background-size: cover;
+}
+
+#hero-banner img {
+    border: #aed5dc 5px solid;
+    padding: 15px;
+    width: 70vw;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+    background: #9d9d80;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #aed5dc;
+}
+
+footer {
+    color: #aed5dc;
+    padding: 1%;
+}
